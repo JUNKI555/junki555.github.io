@@ -1,0 +1,47 @@
+body {
+  font-family: "Merriweather", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.sidebar-about {
+  max-width: 8rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.img--circle {
+  border-radius: 5%;
+}
+
+/* merriweather-regular - latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merriweather Regular'), local('Merriweather-Regular'),
+       url('../../fonts/merriweather-v19-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/merriweather-v19-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/merriweather-v19-latin-regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+/* merriweather-700 - latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Merriweather Bold'), local('Merriweather-Bold'),
+       url('../../fonts/merriweather-v19-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/merriweather-v19-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/merriweather-v19-latin-700.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+/* merriweather-700italic - latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Merriweather Bold Italic'), local('Merriweather-BoldItalic'),
+       url('../../fonts/merriweather-v19-latin-700italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/merriweather-v19-latin-700italic.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/merriweather-v19-latin-700italic.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
